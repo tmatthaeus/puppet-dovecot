@@ -139,6 +139,7 @@ class dovecot (
     $replication_enabled         = false,
     $shared_mailboxes            = false,
     $options_plugins             = {},
+    $mailbox_inbox_prefix        = undef,
 ) {
 
     validate_array($plugins)
